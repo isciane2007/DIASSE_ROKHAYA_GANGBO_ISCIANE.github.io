@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESMT'S KARATE - Vidéo & Inscription</title>
+    <link rel="stylesheet" href="video.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fas fa-fist-raised"></i>
+            <h1>ESMT'S <span>KARATE</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="histoire.html">Histoire</a></li>
+                <li><a href="maîtres.html">Maîtres</a></li>
+                <li><a href="ceintures.html">Ceintures</a></li>
+                <li><a href="competitions.html">Compétitions</a></li>
+                <li><a href="video.html" class="active">Vidéo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section id="video" class="video-section">
+        <h2 class="section-title">L'Esprit du Karaté</h2>
+        <div class="video-container">
+          <video controls width="900" height="500"> <source src="karaté techniques de bases (1).mp4" type="video/mp4">Votre navigateur ne supporte pas la video</video>
+        </div>
+        <div class="video-description">
+            <h3>Documentaire :Les techniques de base de karaté</h3>
+            <p>Les techniques de base du karaté sont appelées kihon et constituent le fondement de tout l'art. Elles permettent de développer la force, la vitesse, l'équilibre et la précision.Voici les principales catégories:</p><br>
+             1.	Les coups de poing (Tsuki) <br>
+	         2.	Les coups de pied (Geri) <br>
+             3.	Les blocages (Uke) <br>
+             4.	Les positions (Dachi) <br>
+             5.	Les déplacements (Ayumi, Tsugi-ashi, etc.) <br>
+            <p style="margin-top: 1rem;"><strong>Production : </strong>Karaté Paris CSKS</p>
+        </div>
+    </section>
+
+    <section id="inscription" class="form-section">
+        <h2 class="section-title">Inscription à ESMT'S KARATE</h2>
+        <div class="form-container">
+            <form action="#" method="post" class="karate-form">
+                <h3 class="form-title"><i class="fas fa-dragon"></i> Fiche d'inscription <i class="fas fa-dragon"></i></h3>
+                
+                <table class="form-table">
+                    <tr>
+                        <td class="form-label"><i class="fas fa-user"></i> Nom complet</td>
+                        <td class="form-input"><input type="text" name="nom" placeholder="Saisissez votre nom" required></td>
+                    </tr>
+                    <tr>
+                        <td class="form-label"><i class="fas fa-envelope"></i> Email</td>
+                        <td class="form-input"><input type="email" name="email" placeholder="Saisissez votre mail" required></td>
+                    </tr>
+                    <tr>
+                        <td class="form-label"><i class="fas fa-calendar-alt"></i> Âge</td>
+                        <td class="form-input"><input type="number" name="age" placeholder="Votre âge" min="5" max="99" required></td>
+                    </tr>
+                    <tr>
+                        <td class="form-label"><i class="fas fa-medal"></i> Ceinture actuelle</td>
+                        <td class="form-input">
+                            <select name="ceinture" required>
+                                <option value="" disabled selected>Choisissez votre ceinture</option>
+                                <option value="blanche">Blanche</option>
+                                <option value="jaune">Jaune</option>
+                                <option value="orange">Orange</option>
+                                <option value="verte">Verte</option>
+                                <option value="bleue">Bleue</option>
+                                <option value="marron">Marron</option>
+                                <option value="noire">Noire</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="form-label"><i class="fas fa-comment"></i> Votre motivation</td>
+                        <td class="form-input"><textarea name="message" rows="4" placeholder="Pourquoi voulez-vous rejoindre ?" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td class="form-label"><i class="fas fa-check-circle"></i> Acceptation</td>
+                        <td class="form-input checkbox-cell">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="accepter" required> J'accepte de recevoir des informations sur le karaté
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="form-submit-cell">
+                            <button type="submit" class="btn-submit">Envoyer ma candidature <i class="fas fa-paper-plane"></i></button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>ESMT'S KARATE</h3>
+                <p>Le site de référence pour les passionnés de karaté. Histoire, maîtres légendaires, ceintures et compétitions.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="histoire.html">Histoire</a></li>
+                    <li><a href="maîtres.html">Maîtres</a></li>
+                    <li><a href="ceintures.html">Ceintures</a></li>
+                    <li><a href="competitions.html">Compétitions</a></li>
+                    <li><a href="video.html">Vidéo</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Dakar, Sénégal</li>
+                    <li><i class="fas fa-phone"></i> +221 77 000 00 00</li>
+                    <li><i class="fas fa-envelope"></i> contact@esmtkarate.sn</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 ESMT'S KARATE - Projet LTI1. Réalisé par ISCIANE GANGBO et ROKHAYA DIASSE</p>
+        </div>
+    </footer>
+</body>
+</html
